@@ -240,6 +240,11 @@ function locationError(pos) {
     MessageQueue.sendAppMessage({"status": 0}, messageSuccessHandler, messageFailureHandler);
 }
 
+Pebble.addEventListener("ready", function(e) {
+    searchForNewPokemon();
+    console.log("Starting");
+});
+
 // Called when incoming message from the Pebble is received
 // We are currently only checking the "message" appKey defined in appinfo.json/Settings
 Pebble.addEventListener("appmessage", function(e) {

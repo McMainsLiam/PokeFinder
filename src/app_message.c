@@ -320,7 +320,7 @@ static void compass_heading_handler(CompassHeadingData heading_data) {
 		APP_LOG(APP_LOG_LEVEL_INFO, "Not yet calibrated.");
 		break;
 		case CompassStatusCalibrating:
-			//APP_LOG(APP_LOG_LEVEL_INFO, "CALIBRATING");
+			APP_LOG(APP_LOG_LEVEL_INFO, "CALIBRATING");
 			compassIsCalibrated = true;
 			if(firstTimeBeingCalibrated) {
 				send_message();
@@ -351,7 +351,7 @@ static void compass_heading_handler(CompassHeadingData heading_data) {
 			}
 		break;
 		case CompassStatusCalibrated:
-			//APP_LOG(APP_LOG_LEVEL_INFO, "CALIBRATED");
+			APP_LOG(APP_LOG_LEVEL_INFO, "CALIBRATED");
 			compassIsCalibrated = true;
 			if(firstTimeBeingCalibrated) {
 				send_message();
