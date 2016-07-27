@@ -7,7 +7,7 @@
         "capabilities": [
             ""
         ],
-        "displayName": "PoGo Assistant",
+        "displayName": "PokeFinder",
         "enableMultiJS": true,
         "messageKeys": {
             "status" : 0,
