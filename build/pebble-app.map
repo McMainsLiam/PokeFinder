@@ -349,6 +349,8 @@ Discarded input sections
                 0x0000000000000000        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
  .text.layer_set_update_proc
                 0x0000000000000000        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+ .text.light_enable
+                0x0000000000000000        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
  .text.light_enable_interaction
                 0x0000000000000000        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
  .text.localtime__deprecated
@@ -1227,7 +1229,7 @@ LOAD /Users/Liam/pebble-dev/pebble-sdk-4.3-mac/arm-cs-tools/bin/../lib/gcc/arm-n
  .note.gnu.build-id
                 0x0000000000000084       0x24 linker stubs
 
-.text           0x00000000000000a8      0xde8
+.text           0x00000000000000a8      0xe61
  *(.text)
  .text          0x00000000000000a8       0x14 /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
  *(.text.*)
@@ -1248,227 +1250,224 @@ LOAD /Users/Liam/pebble-dev/pebble-sdk-4.3-mac/arm-cs-tools/bin/../lib/gcc/arm-n
                 0x0000000000000384       0x10 src/app_message.c.28.o
                 0x0000000000000384                click_config_provider
  .text.process_tuple
-                0x0000000000000394      0x310 src/app_message.c.28.o
+                0x0000000000000394      0x374 src/app_message.c.28.o
                 0x0000000000000394                process_tuple
  .text.in_received_handler
-                0x00000000000006a4       0x1e src/app_message.c.28.o
- *fill*         0x00000000000006c2        0x2 
+                0x0000000000000708       0x1e src/app_message.c.28.o
+ *fill*         0x0000000000000726        0x2 
  .text.startup.main
-                0x00000000000006c4      0x334 src/app_message.c.28.o
-                0x00000000000006c4                main
+                0x0000000000000728      0x32c src/app_message.c.28.o
+                0x0000000000000728                main
  .text.app_event_loop
-                0x00000000000009f8        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x00000000000009f8                app_event_loop
- .text.app_log  0x0000000000000a04        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000a04                app_log
+                0x0000000000000a54        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000a54                app_event_loop
+ .text.app_log  0x0000000000000a60        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000a60                app_log
  .text.app_message_deregister_callbacks
-                0x0000000000000a10        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000a10                app_message_deregister_callbacks
+                0x0000000000000a6c        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000a6c                app_message_deregister_callbacks
  .text.app_message_open
-                0x0000000000000a1c        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000a1c                app_message_open
+                0x0000000000000a78        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000a78                app_message_open
  .text.dict_read_first
-                0x0000000000000a28        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000a28                dict_read_first
+                0x0000000000000a84        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000a84                dict_read_first
  .text.dict_read_next
-                0x0000000000000a34        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000a34                dict_read_next
+                0x0000000000000a90        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000a90                dict_read_next
  .text.dict_write_cstring
-                0x0000000000000a40        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000a40                dict_write_cstring
+                0x0000000000000a9c        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000a9c                dict_write_cstring
  .text.dict_write_end
-                0x0000000000000a4c        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000a4c                dict_write_end
+                0x0000000000000aa8        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000aa8                dict_write_end
  .text.fonts_get_system_font
-                0x0000000000000a58        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000a58                fonts_get_system_font
+                0x0000000000000ab4        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000ab4                fonts_get_system_font
  .text.fonts_load_custom_font
-                0x0000000000000a64        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000a64                fonts_load_custom_font
+                0x0000000000000ac0        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000ac0                fonts_load_custom_font
  .text.layer_add_child
-                0x0000000000000a70        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000a70                layer_add_child
+                0x0000000000000acc        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000acc                layer_add_child
  .text.layer_get_bounds
-                0x0000000000000a7c        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000a7c                layer_get_bounds
- .text.light_enable
-                0x0000000000000a88        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000a88                light_enable
- .text.memset   0x0000000000000a94        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000a94                memset
+                0x0000000000000ad8        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000ad8                layer_get_bounds
+ .text.memset   0x0000000000000ae4        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000ae4                memset
  .text.resource_get_handle
-                0x0000000000000aa0        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000aa0                resource_get_handle
+                0x0000000000000af0        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000af0                resource_get_handle
  .text.snprintf
-                0x0000000000000aac        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000aac                snprintf
+                0x0000000000000afc        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000afc                snprintf
  .text.window_create
-                0x0000000000000ab8        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000ab8                window_create
+                0x0000000000000b08        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000b08                window_create
  .text.window_destroy
-                0x0000000000000ac4        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000ac4                window_destroy
+                0x0000000000000b14        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000b14                window_destroy
  .text.window_get_root_layer
-                0x0000000000000ad0        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000ad0                window_get_root_layer
+                0x0000000000000b20        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000b20                window_get_root_layer
  .text.window_set_click_config_provider
-                0x0000000000000adc        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000adc                window_set_click_config_provider
+                0x0000000000000b2c        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000b2c                window_set_click_config_provider
  .text.window_set_window_handlers
-                0x0000000000000ae8        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000ae8                window_set_window_handlers
+                0x0000000000000b38        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000b38                window_set_window_handlers
  .text.window_stack_push
-                0x0000000000000af4        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000af4                window_stack_push
+                0x0000000000000b44        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000b44                window_stack_push
  .text.app_message_outbox_begin
-                0x0000000000000b00        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000b00                app_message_outbox_begin
+                0x0000000000000b50        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000b50                app_message_outbox_begin
  .text.app_message_outbox_send
-                0x0000000000000b0c        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000b0c                app_message_outbox_send
+                0x0000000000000b5c        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000b5c                app_message_outbox_send
  .text.app_message_register_inbox_dropped
-                0x0000000000000b18        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000b18                app_message_register_inbox_dropped
+                0x0000000000000b68        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000b68                app_message_register_inbox_dropped
  .text.app_message_register_inbox_received
-                0x0000000000000b24        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000b24                app_message_register_inbox_received
+                0x0000000000000b74        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000b74                app_message_register_inbox_received
  .text.app_message_register_outbox_failed
-                0x0000000000000b30        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000b30                app_message_register_outbox_failed
+                0x0000000000000b80        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000b80                app_message_register_outbox_failed
  .text.window_single_click_subscribe
-                0x0000000000000b3c        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000b3c                window_single_click_subscribe
+                0x0000000000000b8c        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000b8c                window_single_click_subscribe
  .text.compass_service_subscribe
-                0x0000000000000b48        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000b48                compass_service_subscribe
+                0x0000000000000b98        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000b98                compass_service_subscribe
  .text.compass_service_unsubscribe
-                0x0000000000000b54        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000b54                compass_service_unsubscribe
+                0x0000000000000ba4        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000ba4                compass_service_unsubscribe
  .text.text_layer_create
-                0x0000000000000b60        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000b60                text_layer_create
+                0x0000000000000bb0        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000bb0                text_layer_create
  .text.text_layer_destroy
-                0x0000000000000b6c        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000b6c                text_layer_destroy
+                0x0000000000000bbc        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000bbc                text_layer_destroy
  .text.text_layer_set_background_color
-                0x0000000000000b78        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000b78                text_layer_set_background_color
+                0x0000000000000bc8        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000bc8                text_layer_set_background_color
  .text.text_layer_set_font
-                0x0000000000000b84        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000b84                text_layer_set_font
+                0x0000000000000bd4        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000bd4                text_layer_set_font
  .text.text_layer_set_text
-                0x0000000000000b90        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000b90                text_layer_set_text
+                0x0000000000000be0        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000be0                text_layer_set_text
  .text.text_layer_set_text_alignment
-                0x0000000000000b9c        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000b9c                text_layer_set_text_alignment
+                0x0000000000000bec        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000bec                text_layer_set_text_alignment
  .text.text_layer_set_text_color
-                0x0000000000000ba8        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
-                0x0000000000000ba8                text_layer_set_text_color
+                0x0000000000000bf8        0xc /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+                0x0000000000000bf8                text_layer_set_text_color
  *(.rodata)
- .rodata        0x0000000000000bb4       0x28 src/app_message.c.28.o
+ .rodata        0x0000000000000c04       0x28 src/app_message.c.28.o
  *(.rodata*)
  .rodata.str1.1
-                0x0000000000000bdc      0x2b4 src/app_message.c.28.o
-                                        0x2b8 (size before relaxing)
+                0x0000000000000c2c      0x2dd src/app_message.c.28.o
+                                        0x2e1 (size before relaxing)
 
-.glue_7         0x0000000000000e90        0x0
+.glue_7         0x0000000000000f0c        0x0
  .glue_7        0x0000000000000000        0x0 linker stubs
 
-.glue_7t        0x0000000000000e90        0x0
+.glue_7t        0x0000000000000f0c        0x0
  .glue_7t       0x0000000000000000        0x0 linker stubs
 
-.vfp11_veneer   0x0000000000000e90        0x0
+.vfp11_veneer   0x0000000000000f0c        0x0
  .vfp11_veneer  0x0000000000000000        0x0 linker stubs
 
-.v4_bx          0x0000000000000e90        0x0
+.v4_bx          0x0000000000000f0c        0x0
  .v4_bx         0x0000000000000000        0x0 linker stubs
 
-.iplt           0x0000000000000e90        0x0
+.iplt           0x0000000000000f0c        0x0
  .iplt          0x0000000000000000        0x0 /Users/Liam/pebble-dev/pebble-sdk-4.3-mac/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.rel.dyn        0x0000000000000e90        0x0
+.rel.dyn        0x0000000000000f0c        0x0
  .rel.iplt      0x0000000000000000        0x0 /Users/Liam/pebble-dev/pebble-sdk-4.3-mac/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
  .rel.got       0x0000000000000000        0x0 /Users/Liam/pebble-dev/pebble-sdk-4.3-mac/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.data           0x0000000000000e90      0x1aa
+.data           0x0000000000000f0c      0x1aa
  *(.data)
- .data          0x0000000000000e90        0x0 /Users/Liam/pebble-dev/pebble-sdk-4.3-mac/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
- .data          0x0000000000000e90        0x4 /Users/Liam/pebble-dev/pebble-sdk-4.3-mac/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
-                0x0000000000000e90                __dso_handle
- .data          0x0000000000000e94        0x0 src/app_message.c.28.o
- .data          0x0000000000000e94        0x0 aplite/appinfo.auto.c.28.o
- .data          0x0000000000000e94        0x0 aplite/src/resource_ids.auto.c.28.o
- .data          0x0000000000000e94        0x0 src/message_keys.auto.c.28.o
- .data          0x0000000000000e94        0x0 /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
- .data          0x0000000000000e94        0x0 /Users/Liam/pebble-dev/pebble-sdk-4.3-mac/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
- .data          0x0000000000000e94        0x0 /Users/Liam/pebble-dev/pebble-sdk-4.3-mac/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+ .data          0x0000000000000f0c        0x0 /Users/Liam/pebble-dev/pebble-sdk-4.3-mac/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .data          0x0000000000000f0c        0x4 /Users/Liam/pebble-dev/pebble-sdk-4.3-mac/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+                0x0000000000000f0c                __dso_handle
+ .data          0x0000000000000f10        0x0 src/app_message.c.28.o
+ .data          0x0000000000000f10        0x0 aplite/appinfo.auto.c.28.o
+ .data          0x0000000000000f10        0x0 aplite/src/resource_ids.auto.c.28.o
+ .data          0x0000000000000f10        0x0 src/message_keys.auto.c.28.o
+ .data          0x0000000000000f10        0x0 /Users/Liam/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/aplite/lib/libpebble.a(tmpz2MrsRpebble.o)
+ .data          0x0000000000000f10        0x0 /Users/Liam/pebble-dev/pebble-sdk-4.3-mac/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .data          0x0000000000000f10        0x0 /Users/Liam/pebble-dev/pebble-sdk-4.3-mac/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
  *(.data.*)
  .data.buf.7908
-                0x0000000000000e94       0x2c src/app_message.c.28.o
+                0x0000000000000f10       0x2c src/app_message.c.28.o
  .data.buf.7909
-                0x0000000000000ec0        0xc src/app_message.c.28.o
+                0x0000000000000f3c        0xc src/app_message.c.28.o
  .data.buf.7914
-                0x0000000000000ecc       0x32 src/app_message.c.28.o
+                0x0000000000000f48       0x32 src/app_message.c.28.o
  .data.buf.7915
-                0x0000000000000efe       0x32 src/app_message.c.28.o
+                0x0000000000000f7a       0x32 src/app_message.c.28.o
  .data.buf.7912
-                0x0000000000000f30        0xc src/app_message.c.28.o
+                0x0000000000000fac        0xc src/app_message.c.28.o
  .data.buf.7910
-                0x0000000000000f3c       0x33 src/app_message.c.28.o
+                0x0000000000000fb8       0x33 src/app_message.c.28.o
  .data.buf.7913
-                0x0000000000000f6f       0x58 src/app_message.c.28.o
+                0x0000000000000feb       0x58 src/app_message.c.28.o
  .data.buf.7907
-                0x0000000000000fc7       0x40 src/app_message.c.28.o
+                0x0000000000001043       0x40 src/app_message.c.28.o
  .data.buf.7911
-                0x0000000000001007       0x33 src/app_message.c.28.o
+                0x0000000000001083       0x33 src/app_message.c.28.o
 
-.igot.plt       0x000000000000103c        0x0
+.igot.plt       0x00000000000010b8        0x0
  .igot.plt      0x0000000000000000        0x0 /Users/Liam/pebble-dev/pebble-sdk-4.3-mac/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.got            0x000000000000103c       0x18
- .got           0x000000000000103c       0x18 /Users/Liam/pebble-dev/pebble-sdk-4.3-mac/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+.got            0x00000000000010b8       0x18
+ .got           0x00000000000010b8       0x18 /Users/Liam/pebble-dev/pebble-sdk-4.3-mac/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
 
-.got.plt        0x0000000000001054        0xc
- .got.plt       0x0000000000001054        0xc /Users/Liam/pebble-dev/pebble-sdk-4.3-mac/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
-                0x0000000000001054                _GLOBAL_OFFSET_TABLE_
+.got.plt        0x00000000000010d0        0xc
+ .got.plt       0x00000000000010d0        0xc /Users/Liam/pebble-dev/pebble-sdk-4.3-mac/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+                0x00000000000010d0                _GLOBAL_OFFSET_TABLE_
 
-.bss            0x0000000000001060       0x49
+.bss            0x00000000000010dc       0x49
  *(.bss)
  *(.bss.*)
  .bss.catchChanceText
-                0x0000000000001060        0x4 src/app_message.c.28.o
- .bss.s_font    0x0000000000001064        0x4 src/app_message.c.28.o
+                0x00000000000010dc        0x4 src/app_message.c.28.o
+ .bss.s_font    0x00000000000010e0        0x4 src/app_message.c.28.o
  .bss.gothicbold
-                0x0000000000001068        0x4 src/app_message.c.28.o
- .bss.nameText  0x000000000000106c        0x4 src/app_message.c.28.o
- .bss.s_window  0x0000000000001070        0x4 src/app_message.c.28.o
+                0x00000000000010e4        0x4 src/app_message.c.28.o
+ .bss.nameText  0x00000000000010e8        0x4 src/app_message.c.28.o
+ .bss.s_window  0x00000000000010ec        0x4 src/app_message.c.28.o
  .bss.distanceText
-                0x0000000000001074        0x4 src/app_message.c.28.o
+                0x00000000000010f0        0x4 src/app_message.c.28.o
  .bss.despawnTimeLayer
-                0x0000000000001078        0x4 src/app_message.c.28.o
+                0x00000000000010f4        0x4 src/app_message.c.28.o
  .bss.s_res_bitham_42_light
-                0x000000000000107c        0x4 src/app_message.c.28.o
+                0x00000000000010f8        0x4 src/app_message.c.28.o
  .bss.directionText
-                0x0000000000001080        0x4 src/app_message.c.28.o
+                0x00000000000010fc        0x4 src/app_message.c.28.o
  .bss.s_res_gothic_14
-                0x0000000000001084        0x4 src/app_message.c.28.o
+                0x0000000000001100        0x4 src/app_message.c.28.o
  .bss.s_res_gothic_18
-                0x0000000000001088        0x4 src/app_message.c.28.o
+                0x0000000000001104        0x4 src/app_message.c.28.o
  .bss.s_res_gothic_24
-                0x000000000000108c        0x4 src/app_message.c.28.o
+                0x0000000000001108        0x4 src/app_message.c.28.o
  .bss.backgroundText
-                0x0000000000001090        0x4 src/app_message.c.28.o
+                0x000000000000110c        0x4 src/app_message.c.28.o
  .bss.s_res_gothic_28
-                0x0000000000001094        0x4 src/app_message.c.28.o
- COMMON         0x0000000000001098       0x11 src/app_message.c.28.o
-                0x0000000000001098                compassIsCalibrated
-                0x0000000000001099                isGoodResponse
-                0x000000000000109a                hasRecievedResponse
-                0x000000000000109c                angle
-                0x00000000000010a0                arrowAngle
-                0x00000000000010a4                dictation_session
-                0x00000000000010a8                firstTimeBeingCalibrated
+                0x0000000000001110        0x4 src/app_message.c.28.o
+ COMMON         0x0000000000001114       0x11 src/app_message.c.28.o
+                0x0000000000001114                compassIsCalibrated
+                0x0000000000001115                isGoodResponse
+                0x0000000000001116                hasRecievedResponse
+                0x0000000000001118                angle
+                0x000000000000111c                arrowAngle
+                0x0000000000001120                dictation_session
+                0x0000000000001124                firstTimeBeingCalibrated
 
 DISCARD
  libc.a(*)
@@ -1507,11 +1506,11 @@ OUTPUT(/Users/Liam/pebble-dev/pogo_assistant 2/build/aplite/pebble-app.elf elf32
  .comment       0x0000000000000000       0x4f src/message_keys.auto.c.28.o
  .comment       0x0000000000000000       0x4f /Users/Liam/pebble-dev/pebble-sdk-4.3-mac/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
 
-.debug_info     0x0000000000000000     0x2061
- .debug_info    0x0000000000000000     0x1ba1 src/app_message.c.28.o
- .debug_info    0x0000000000001ba1      0x2e6 aplite/appinfo.auto.c.28.o
- .debug_info    0x0000000000001e87       0xa5 aplite/src/resource_ids.auto.c.28.o
- .debug_info    0x0000000000001f2c      0x135 src/message_keys.auto.c.28.o
+.debug_info     0x0000000000000000     0x2044
+ .debug_info    0x0000000000000000     0x1b84 src/app_message.c.28.o
+ .debug_info    0x0000000000001b84      0x2e6 aplite/appinfo.auto.c.28.o
+ .debug_info    0x0000000000001e6a       0xa5 aplite/src/resource_ids.auto.c.28.o
+ .debug_info    0x0000000000001f0f      0x135 src/message_keys.auto.c.28.o
 
 .debug_abbrev   0x0000000000000000      0x537
  .debug_abbrev  0x0000000000000000      0x427 src/app_message.c.28.o
@@ -1519,8 +1518,8 @@ OUTPUT(/Users/Liam/pebble-dev/pogo_assistant 2/build/aplite/pebble-app.elf elf32
  .debug_abbrev  0x00000000000004af       0x44 aplite/src/resource_ids.auto.c.28.o
  .debug_abbrev  0x00000000000004f3       0x44 src/message_keys.auto.c.28.o
 
-.debug_loc      0x0000000000000000      0x8c7
- .debug_loc     0x0000000000000000      0x8c7 src/app_message.c.28.o
+.debug_loc      0x0000000000000000      0xa05
+ .debug_loc     0x0000000000000000      0xa05 src/app_message.c.28.o
 
 .debug_aranges  0x0000000000000000       0xd0
  .debug_aranges
@@ -1535,20 +1534,20 @@ OUTPUT(/Users/Liam/pebble-dev/pogo_assistant 2/build/aplite/pebble-app.elf elf32
 .debug_ranges   0x0000000000000000       0xc0
  .debug_ranges  0x0000000000000000       0xc0 src/app_message.c.28.o
 
-.debug_line     0x0000000000000000      0x687
- .debug_line    0x0000000000000000      0x3ca src/app_message.c.28.o
- .debug_line    0x00000000000003ca      0x136 aplite/appinfo.auto.c.28.o
- .debug_line    0x0000000000000500       0xc7 aplite/src/resource_ids.auto.c.28.o
- .debug_line    0x00000000000005c7       0xc0 src/message_keys.auto.c.28.o
+.debug_line     0x0000000000000000      0x68e
+ .debug_line    0x0000000000000000      0x3d1 src/app_message.c.28.o
+ .debug_line    0x00000000000003d1      0x136 aplite/appinfo.auto.c.28.o
+ .debug_line    0x0000000000000507       0xc7 aplite/src/resource_ids.auto.c.28.o
+ .debug_line    0x00000000000005ce       0xc0 src/message_keys.auto.c.28.o
 
-.debug_str      0x0000000000000000     0x11d6
- .debug_str     0x0000000000000000      0xf2a src/app_message.c.28.o
-                                       0x102f (size before relaxing)
- .debug_str     0x0000000000000f2a      0x166 aplite/appinfo.auto.c.28.o
+.debug_str      0x0000000000000000     0x11c9
+ .debug_str     0x0000000000000000      0xf1d src/app_message.c.28.o
+                                       0x1022 (size before relaxing)
+ .debug_str     0x0000000000000f1d      0x166 aplite/appinfo.auto.c.28.o
                                         0x251 (size before relaxing)
- .debug_str     0x0000000000001090       0x58 aplite/src/resource_ids.auto.c.28.o
+ .debug_str     0x0000000000001083       0x58 aplite/src/resource_ids.auto.c.28.o
                                         0x11f (size before relaxing)
- .debug_str     0x00000000000010e8       0xee src/message_keys.auto.c.28.o
+ .debug_str     0x00000000000010db       0xee src/message_keys.auto.c.28.o
                                         0x1b5 (size before relaxing)
 
 .debug_frame    0x0000000000000000      0x164

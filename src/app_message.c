@@ -470,7 +470,7 @@ static void init(void) {
 	text_layer_set_font(despawnTimeLayer, gothicbold);
 	layer_add_child(window_get_root_layer(s_window), (Layer *)despawnTimeLayer);
 
-	light_enable(true);
+	//light_enable(true);
 
 }
 
