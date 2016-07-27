@@ -316,6 +316,7 @@ static void compass_heading_handler(CompassHeadingData heading_data) {
 	switch(heading_data.compass_status) {
 		case CompassStatusDataInvalid:
 		compassIsCalibrated = false;
+		firstTimeBeingCalibrated = true;
 		text_layer_set_text(nameText, "Tilt watch to calibrate compass!");
 		APP_LOG(APP_LOG_LEVEL_INFO, "Not yet calibrated.");
 		break;
