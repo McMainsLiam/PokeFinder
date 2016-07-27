@@ -1,0 +1,61 @@
+{
+    "author": "liam@mcmains.net",
+    "dependencies": {},
+    "keywords": [],
+    "name": "pogo-assistant",
+    "pebble": {
+        "capabilities": [
+            ""
+        ],
+        "displayName": "PoGo Assistant",
+        "enableMultiJS": true,
+        "messageKeys": {
+            "status" : 0,
+            "message" : 1,
+            "typeone" : 2,
+            "typetwo" : 3,
+            "caprate" : 4,
+            "fleerate" : 5,
+            "name" : 6,
+            "stamina" : 7,
+            "defense" : 8,
+            "attack" : 9,
+            "angle" : 10
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [{
+
+                    "file": "images/unable.png",
+                    "menuIcon": false,
+                    "name": "UNABLE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+
+                        "file": "images/arrow.png",
+                        "menuIcon": false,
+                        "name": "ARROW",
+                        "targetPlatforms": null,
+                        "type": "bitmap"
+                    },
+                 {
+                    "file": "fonts/code.otf",
+                    "name": "CODE_34",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+                ]
+        },
+        "sdkVersion": "3",
+        "uuid": "3a0c00f6-e988-451f-85a0-3642ac363476",
+        "watchapp": {
+            "watchface": false
+        },
+        "platforms":[
+            "basalt", "aplite"
+        ]
+    },
+    "version": "1.2.0"
+}

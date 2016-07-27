@@ -1,0 +1,72 @@
+{
+    "projectType": "native", 
+    "messageKeys": {
+        "status": 0, 
+        "typetwo": 3, 
+        "defense": 8, 
+        "message": 1, 
+        "angle": 10, 
+        "name": 6, 
+        "fleerate": 5, 
+        "stamina": 7, 
+        "attack": 9, 
+        "typeone": 2, 
+        "caprate": 4
+    }, 
+    "companyName": "liam@mcmains.net", 
+    "enableMultiJS": true, 
+    "watchapp": {
+        "watchface": false
+    }, 
+    "platforms": [
+        "basalt", 
+        "aplite"
+    ], 
+    "versionLabel": "1.2", 
+    "longName": "PoGo Assistant", 
+    "shortName": "PoGo Assistant", 
+    "name": "pogo-assistant", 
+    "sdkVersion": "3", 
+    "displayName": "PoGo Assistant", 
+    "uuid": "3a0c00f6-e988-451f-85a0-3642ac363476", 
+    "appKeys": {
+        "status": 0, 
+        "typetwo": 3, 
+        "defense": 8, 
+        "message": 1, 
+        "angle": 10, 
+        "name": 6, 
+        "fleerate": 5, 
+        "stamina": 7, 
+        "attack": 9, 
+        "typeone": 2, 
+        "caprate": 4
+    }, 
+    "capabilities": [
+        ""
+    ], 
+    "resources": {
+        "media": [
+            {
+                "menuIcon": false, 
+                "type": "bitmap", 
+                "targetPlatforms": null, 
+                "file": "images/unable.png", 
+                "name": "UNABLE"
+            }, 
+            {
+                "menuIcon": false, 
+                "type": "bitmap", 
+                "targetPlatforms": null, 
+                "file": "images/arrow.png", 
+                "name": "ARROW"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "font", 
+                "name": "CODE_34", 
+                "file": "fonts/code.otf"
+            }
+        ]
+    }
+}
